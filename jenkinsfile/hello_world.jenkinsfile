@@ -11,5 +11,10 @@ pipeline {
                 echo 'DevOps Academy'
             }
         }
+        stage('Bye') {
+            steps {
+                echo 'Bye World'
+            }
+        }
     }
 }
