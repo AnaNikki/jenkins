@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
-        stage('Academy') {
+        stage('Academy')
             steps {
                 echo 'DevOps Academy'
             }
